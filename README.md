@@ -1,3 +1,5 @@
+# sistemaBancario
+API REST com a logica simples de um sistema bancario, sem usar banco de dados para persistir. Usado o padão MVC no projeto.
 ## A API permite:
 
 -   Criar conta bancária
@@ -245,7 +247,6 @@ Esse endpoint  lista as transações realizadas de uma conta específica.
 #### Saída
 
 ```javascript
-// HTTP Status 200
 {
   depositos: [
     {
